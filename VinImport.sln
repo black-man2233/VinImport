@@ -5,7 +5,7 @@ VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VinImport", "VinImport\VinImport.csproj", "{96C24173-6A88-4C9C-9AE4-739F1E36C6E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VinImport(GUI)", "VinImport(GUI)\VinImport(GUI).csproj", "{6F08600D-5BED-4DE4-A009-D67DA861642F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WineImport(GUI)", "WineImport(GUI)\WineImport(GUI).csproj", "{246B5D08-C984-4426-8FA3-712B7313A695}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{96C24173-6A88-4C9C-9AE4-739F1E36C6E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96C24173-6A88-4C9C-9AE4-739F1E36C6E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96C24173-6A88-4C9C-9AE4-739F1E36C6E5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6F08600D-5BED-4DE4-A009-D67DA861642F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6F08600D-5BED-4DE4-A009-D67DA861642F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6F08600D-5BED-4DE4-A009-D67DA861642F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6F08600D-5BED-4DE4-A009-D67DA861642F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{246B5D08-C984-4426-8FA3-712B7313A695}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{246B5D08-C984-4426-8FA3-712B7313A695}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{246B5D08-C984-4426-8FA3-712B7313A695}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{246B5D08-C984-4426-8FA3-712B7313A695}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

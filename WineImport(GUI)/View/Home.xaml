@@ -1,10 +1,10 @@
-﻿<UserControl x:Class="VinImport_GUI_.View.Home"
+﻿<UserControl x:Class="WineImport_GUI_.View.Home"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             xmlns:local="clr-namespace:VinImport_GUI_.View"
-             xmlns:vm="clr-namespace:VinImport_GUI_.ViewModel"
+             xmlns:local="clr-namespace:WineImport_GUI_.View"
+             xmlns:vm="clr-namespace:WineImport_GUI_.ViewModel"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800"
              Style="{StaticResource Page_Stye}">
@@ -56,7 +56,7 @@
                 <ColumnDefinition Width="200"/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
-            
+
             <Label Content="Dato:"
                    Foreground="White"
                    FontSize="70"

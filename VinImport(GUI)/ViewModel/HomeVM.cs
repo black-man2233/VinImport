@@ -31,6 +31,7 @@ namespace VinImport_GUI_.ViewModel
 			_date = new DateModel();
 			_userName = "Kevin Bamwesa";
 
+
 		}
 
 	}

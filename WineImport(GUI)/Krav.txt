@@ -1,0 +1,10 @@
+﻿* OutdoorHumidity() returnerer en double indeholdende udendørs fugtighed i procent
+• OutdoorTemp() returnerer en double indeholdende udendørs temperatur i celsius
+• StockHumidity() returnerer en double indeholdende lagerets fugtighed i procent
+• StockTemp() returnerer en double indeholdende lagerets temperatur i celsius
+
+• StockItemsUnderMin() returnerer et array af strings indeholdende de varer der er for få af på
+• 
+StockItemsOverMax() returnerer et array af strings indeholdende de varer der er for mange af på
+
+* StockItemsMostSold() returnerer et array af strings indeholdende de varer der er solgt mest dags
