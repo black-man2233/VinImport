@@ -10,7 +10,6 @@
     <DataTemplate DataType="{x:Type vm:HomeVM}">
         <view:Home/>
     </DataTemplate>
-
 </ResourceDictionary>
 
    

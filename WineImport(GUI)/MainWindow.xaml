@@ -11,7 +11,7 @@
         WindowStartupLocation="CenterScreen"
         WindowStyle="None"
         Background="Transparent"
-        Title="MainWindow" Height="600" Width="850">
+        Title="MainWindow" Height="600" Width="940">
     <Window.DataContext>
         <vm:NavigationVM/>
     </Window.DataContext>

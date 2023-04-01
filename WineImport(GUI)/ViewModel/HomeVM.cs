@@ -12,7 +12,7 @@ namespace WineImport_GUI_.ViewModel
         private DateModel _date;
         public DateModel Date
         {
-            get { return _date; }
+            get => _date;
             set { _date = value; OnPropertyChanged(); }
         }
 
@@ -20,18 +20,14 @@ namespace WineImport_GUI_.ViewModel
 
         public string UserName
         {
-            get { return _userName; }
+            get => this._userName;
             set { _userName = value; OnPropertyChanged(); }
         }
-
-
 
         public HomeVM()
         {
             _date = new DateModel();
             _userName = "Kevin Bamwesa";
-
-
         }
     }
 }
