@@ -129,11 +129,11 @@
     </Style>
 
     <ImageBrush x:Key="close_app_def"
-                ImageSource="C:\Users\K\Source\Repos\black-man2233\VinImport\WineImport(GUI)\Images\shutdown-blue.png"
+                ImageSource="/Images/shutdown-blue.png"
                 Stretch="None" />
 
     <ImageBrush x:Key="close_app_mo"
-                ImageSource="C:\Users\K\Source\Repos\black-man2233\VinImport\WineImport(GUI)\Images\Shutdown-red.png"
+                ImageSource="/Images/Shutdown-red.png"
                 Stretch="None" />
 
     <Style x:Key="ExitApp"
