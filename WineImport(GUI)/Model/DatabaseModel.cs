@@ -1,13 +1,5 @@
-﻿using WineImport_GUI_.DVIService;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.InteropServices;
-using System.Text;
-using System.Threading.Tasks;
-using System.Collections.ObjectModel;
-using System.ServiceModel.Channels;
-using System.Windows;
+﻿using System.Collections.ObjectModel;
+using WineImport_GUI_.DVIService;
 
 namespace WineImport_GUI_.Model
 {

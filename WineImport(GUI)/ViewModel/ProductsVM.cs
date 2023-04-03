@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.IO.Packaging;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using WineImport_GUI_.Model;
+﻿using WineImport_GUI_.Model;
 
 namespace WineImport_GUI_.ViewModel
 {

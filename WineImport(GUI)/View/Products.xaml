@@ -6,14 +6,13 @@
              xmlns:local="clr-namespace:WineImport_GUI_.View"
              xmlns:vm="clr-namespace:WineImport_GUI_.ViewModel"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800"
-             Style="{StaticResource Page_Stye}">
-
+             d:DesignHeight="450" d:DesignWidth="800">
+    <!--Style="{StaticResource Page_Stye}"-->
     <UserControl.DataContext>
         <vm:ProductsVM/>
     </UserControl.DataContext>
 
-    <Grid Background="#272B2F" DataContext="{Binding Stock}">
+    <Grid Background="#272B2F" DataContext="{Binding Path=Stocks}">
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
             <ColumnDefinition/>
@@ -27,7 +26,7 @@
         <StackPanel Grid.Row="0"
                     Grid.Column="0">
 
-            <Label Content="Temperatur og fugtighed"
+            <Label Content="Temperature og fugtighed"
                    Foreground="#00deec"
                    FontSize="20"
                    HorizontalAlignment="Center"
@@ -121,7 +120,7 @@
             <ListBox ItemsSource="{Binding StockItemsOverMax }"
                     Style="{StaticResource ListBoxStyle1}"
 				    Grid.Column="0"
-                     Margin="10,30,0,0"
+                     Margin="-20,30,0,0"
 				     BorderBrush="Transparent"
 				     Background="#FF181818"
 				     d:ItemsSource="{d:SampleData ItemCount=2}">
